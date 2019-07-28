@@ -58,7 +58,7 @@ $(document).ready(() => {
             item.style.color = getRandomColor()
             item.style.border = `${Math.random() * 20}px solid ${getRandomColor()}`
             item.style.backgroundColor = getRandomColor()
-            item.style.marginTop = `${Math.random() * 100}px`
+            item.style.fontSize = `${Math.random() * 30 + 10}pt`
 
             if (Math.random() < 0.5)
                 item.style.borderRadius = `${Math.random() * 50}px`

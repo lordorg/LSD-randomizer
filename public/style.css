@@ -2,9 +2,9 @@
     margin-top: 50px;
 }
 
-* {
+/* * {
     font-size: 16pt;
-}
+} */
 
 button {
     width: 100%;
@@ -13,4 +13,8 @@ button {
 .list {
     text-align: center;
     margin-top: 20px;
+}
+
+.list .list-item {
+    margin-bottom: 10px;
 }
